@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - grand entrance
- *
- * Return - 0
+*main - prints some text
+*
+*Return: returns 0
 */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
