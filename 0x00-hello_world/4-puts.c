@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+/**
+ * main- grand entrance
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
