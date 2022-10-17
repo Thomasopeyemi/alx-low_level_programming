@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - grand entrance
-*printf - relays to stdout
-*return - returns 0
+*main - prints some text
+*
+*Return: returns 0
 */
 int main(void)
 {
