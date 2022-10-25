@@ -13,6 +13,8 @@ void puts2(char *str)
 	int a;
 	int b;
 
+	a = 0;
+
 	while (str[a] != '\0')
 	{
 		a++;
