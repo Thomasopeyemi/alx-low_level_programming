@@ -10,21 +10,24 @@
 
 void print_rev(char *s)
 {
-	char t;
-	int i, len, left, right;
+	int l;
+	int i;
+	int r;
 
-	len = _strlen('*s');
-	left = 0;
-	right = len - 1;
-	for (i = left; i < right; i++)
+	i = 0;
+
+	while (s[i] != '\0')
 	{
-		t = *s[i];
-		*s[i] = *s[right];
-		*s[right] = t;
-		right--;
+		i++;
 	}
-	_putchar(*s[i]);
 
-	return (0);
+	l = i;
+
+	for (r = l - 1; r >= 0; r--)
+	{
+		_putchar(s[r]);
+	}
+
+	_putchar('\n');
 
 }
