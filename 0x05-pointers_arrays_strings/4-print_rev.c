@@ -10,20 +10,20 @@
 
 void print_rev(char *s)
 {
-	char s, t;
+	char t;
 	int i, len, left, right;
 
-	len = _strlen(*s);
+	len = _strlen('*s');
 	left = 0;
 	right = len - 1;
 	for (i = left; i < right; i++)
 	{
-		t = s[i];
-		s[i] = s[right];
-		s[right] = t;
+		t = *s[i];
+		*s[i] = *s[right];
+		*s[right] = t;
 		right--;
 	}
-	_putchar(s[i]);
+	_putchar(*s[i]);
 
 	return (0);
 
