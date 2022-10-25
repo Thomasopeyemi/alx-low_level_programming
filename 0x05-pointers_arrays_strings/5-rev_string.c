@@ -14,25 +14,22 @@ void rev_string(char *s)
 	int i;
 	int c;
 	int l;
-	int lt;
-	int rt;
 
-	c = 0;
-	for (; *s != '\0'; s++)
+	i = 0;
+	l = 0;
+
+	while (s[i] != '\0')
 	{
-		c++;
+		i++;
 	}
 
-	l = c;
-	rt = l - 1;
-	lt = 0;
+	l = i - 1;
 
-	for (i = lt; i < rt; i++)
+	for (c = 0; c < l / 2; c++)
 	{
-		t = s[i];
-		s[i] = s[rt];
-		s[rt] = t;
-		rt--;
+		t = s[c];
+		s[c] = s[l];
+		s[l] = t;
+		l--;
 	}
-
 }
