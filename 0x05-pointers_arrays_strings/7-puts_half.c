@@ -31,9 +31,9 @@ void puts_half(char *str)
 	{
 		for (c = (a - 1) / 2; c < a - 1; c++)
 		{
-			_putchar(str[c + 1];
+			_putchar(str[c + 1]);
 		}
 	}
-	_puchar('\n');
+	_putchar('\n');
 
 }
