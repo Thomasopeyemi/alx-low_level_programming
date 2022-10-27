@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * reverse_array - reverses elements of an array
@@ -29,7 +28,7 @@ void reverse_array(int *a, int n)
 		temp = a[x];
 		a[x] = *y;
 		*y = temp;
-		x--;
+		y--;
 	}
 
 
