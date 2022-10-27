@@ -16,13 +16,13 @@ void reverse_array(int *a, int n)
 
 	for (i = 1; i < n; i++)
 	{
-		x = n - i;
+		x = (n - i);
 		x++;
 	}
 
 	while (a[x] != 0)
 	{
-		x++;
+		x--;
 	}
 
 
