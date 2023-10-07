@@ -17,9 +17,9 @@ int main(void)
 		if (a < 9)
 		{
 			putchar(',');
-			putchat(' ');
+			putchar(' ');
 		}
-		a++
+		a++;
 	}
 	putchar('\n');
 	return (0);
