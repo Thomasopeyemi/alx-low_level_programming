@@ -10,7 +10,7 @@ int main(void)
 {
 	int a;
 	int b;
-	unsigned long int c;
+	unsigned long long int c;
 	int count;
 
 	a = 1;
@@ -21,7 +21,7 @@ int main(void)
 
 	for (count = 3; count <= 98; count++)
 	{
-		printf("%lu, ", c);
+		printf("%llu, ", c);
 
 		a = b;
 		b = c;
