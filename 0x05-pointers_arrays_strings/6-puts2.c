@@ -8,7 +8,6 @@
 
 void puts2(char *str)
 {
-	char str[];
 	int a;
 
 	_putchar(str[0]);
