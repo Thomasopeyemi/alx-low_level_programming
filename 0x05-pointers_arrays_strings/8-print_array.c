@@ -2,7 +2,8 @@
 
 /**
  * print_array - prints n element sof an array a of integers
- *
+ * @a: pointer variable
+ * @n: number of times to be printed
  * Return: 0
  */
 

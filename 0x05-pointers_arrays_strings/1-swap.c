@@ -2,6 +2,8 @@
 
 /**
  * swap_int - swaps the values of two integers
+ * @a: first integer
+ * @b: seconf integer
  * Return: 0
  */
 

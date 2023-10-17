@@ -2,6 +2,7 @@
 
 /**
  * _puts - prints a string to std-o
+ * @str: string
  * Return: 0
  */
 
